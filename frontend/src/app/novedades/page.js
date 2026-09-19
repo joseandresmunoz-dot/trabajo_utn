@@ -1,4 +1,4 @@
-import NovedadItem from "@/components/";
+import NovedadItem from "@/components/NovedadItem";
 
 export const metadata = {
     title: "Transportes X :: Novedades",
@@ -11,6 +11,7 @@ export default function Novedades() {
         <section className="holder">
             <h2>Novedades</h2>
             {/* vamos a traer el componente de novedadItem */}
+            <NovedadItem />
         </section>
     )
 }
