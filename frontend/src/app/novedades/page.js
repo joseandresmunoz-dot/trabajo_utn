@@ -9,7 +9,7 @@ export default function Novedades() {
 
     return (
         <section className="holder">
-            <h2>Novedades</h2>
+            <h2>Full full</h2>
             {/* vamos a traer el componente de novedadItem */}
             <NovedadItem />
         </section>

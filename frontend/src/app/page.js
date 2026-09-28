@@ -1,34 +1,25 @@
+import "@/styles/home.css";
 export default function Home() {
 
   return (
     <main className="holder">
-      <div className="homeimg">
-        <img src="https://fakeimg.pl/960x250" alt="avion" />
-      </div>
-      <div className="columnas">
-        <div className="bienvenidos">
-          <h2>Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum.</p>
+        <div>
+            <img src="/images/galeria/home/img01.jpg" width="100%" alt="avion" />
         </div>
-        <div className="testimonios">
-          <h2>Testimonios</h2>
-          <div className="testimonio">
-            <span className="cita">Simplemente excelente </span>
-            <span className="autor">Juan Perez </span>
-          </div>
+        
+        <div className="columnas">
+            <section className="bienvenidos">
+                <h2>Bienvenidos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam ut ducimus repellendus voluptatum tempore dolore optio, ullam non nisi, quibusdam unde deleniti autem architecto similique recusandae error eius harum minus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet fuga quas eius necessitatibus, vitae aliquam quaerat eaque recusandae! Impedit excepturi quasi corporis unde nobis fuga est recusandae sint. Nostrum, recusandae.</p>
+            </section>
+            <section className="testimonios">
+                <h2>Testimonios</h2>
+                <div className="testimonio">
+                    <span className="cita">Simplemente un lujoso servicio</span>
+                    <span className="autor">Juan Pérez - Transportes Pérez</span>
+                </div>
+            </section>
         </div>
-      </div>
     </main>
   );
 }

@@ -4,6 +4,7 @@ export default async function NovedadItem() {
         <div className="novedades">
             <h1>Titulo</h1>
             <h2>Subtitulo</h2>
+            <h3>Aca van mas subtitulos</h3>
             <img src="https://fakeimg.pl/960x120" alt="imagen 1" />
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing
                 elit. Ab beatae quos laudantium? Aspernatur,
