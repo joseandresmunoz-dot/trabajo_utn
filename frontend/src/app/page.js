@@ -3,8 +3,8 @@ export default function Home() {
 
   return (
     <main className="holder">
-        <div>
-            <img src="/images/galeria/home/img01.jpg" width="100%" alt="avion" />
+        <div className="homeimg">
+            <img src="https://dummyimage.com/960x250/000000/fff&text=Hola" alt="avion" />
         </div>
         
         <div className="columnas">

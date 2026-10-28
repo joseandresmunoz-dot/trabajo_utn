@@ -23,7 +23,7 @@ export default function Nosotros() {
                 <h2>Staff</h2>
                 <div className="personas">
                     <div className="persona" >
-                        <img src="https://fakeimg.pl/120x120" width="75"
+                        <img src="https://dummyimage.com/120x120/000000/fff&text=Hola" width="75"
                             alt="imagen1" />
                         <h5>Juan Gomez</h5>
                         <h6>Gerente General</h6>
@@ -34,7 +34,7 @@ export default function Nosotros() {
                 </div>
                  <div className="personas">
                     <div className="persona" >
-                        <img src="https://fakeimg.pl/120x120" width="75"
+                        <img src="https://dummyimage.com/120x120/000000/fff&text=Hola" width="75"
                             alt="imagen1" />
                         <h5>Juan Gomez</h5>
                         <h6>Gerente General</h6>
@@ -45,7 +45,7 @@ export default function Nosotros() {
                 </div>
                  <div className="personas">
                     <div className="persona" >
-                        <img src="https://fakeimg.pl/120x120" width="75"
+                        <img src="https://dummyimage.com/120x120/000000/fff&text=Hola" width="75"
                             alt="imagen1" />
                         <h5>Juan Gomez</h5>
                         <h6>Gerente General</h6>
@@ -56,7 +56,7 @@ export default function Nosotros() {
                 </div>
                  <div className="personas">
                     <div className="persona" >
-                        <img src="https://fakeimg.pl/120x120" width="75"
+                        <img src="https://dummyimage.com/120x120/000000/fff&text=Hola" width="75"
                             alt="imagen1" />
                         <h5>Juan Gomez</h5>
                         <h6>Gerente General</h6>
@@ -67,7 +67,7 @@ export default function Nosotros() {
                 </div>
                  <div className="personas">
                     <div className="persona" >
-                        <img src="https://fakeimg.pl/120x120" width="75"
+                        <img src="https://dummyimage.com/120x120/000000/fff&text=Hola" width="75"
                             alt="imagen1" />
                         <h5>Juan Gomez</h5>
                         <h6>Gerente General</h6>

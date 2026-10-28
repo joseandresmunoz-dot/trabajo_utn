@@ -1,4 +1,5 @@
 import ContactForm from "@/components/ContactForm";
+import "@/styles/contacto.css";
 
 export const metadata = {
     title: "Contacto",

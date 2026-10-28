@@ -1,5 +1,5 @@
 import Nav from '@/components/Nav';
-import "@/styles/globals.css";
+import "@/styles/global.css";
 
 export const metadata = {
   title: "Transportes X",
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
             <div className="logo">
               <img src="/images/logo.png" width="100"
                    alt="Transportes X" />
-              <h1>Transportes </h1>
+              <h1>Transportes X</h1>
             </div>
           </div>
         </header>
@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
 
         <footer>
           <p>Derechos reservados. Transportes X Año 2026</p>
+          <p>Desarrollado por: Jose</p>
         </footer>
 
       </body>
