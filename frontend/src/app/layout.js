@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body>
         <header>
           <div className="holder">
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
 
         <footer>
           <p>Derechos reservados. Transportes X Año 2026</p>
-          <p>Desarrollado por: Jose</p>
+          <p>Desarrollado por: Jose Muñoz</p>
         </footer>
 
       </body>
