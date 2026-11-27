@@ -1,24 +1,10 @@
-export default async function NovedadItem() {
-
+export default function NovedadItem({ title, subtitle, body }) {
     return (
         <div className="novedades">
-            <h1>Titulo</h1>
-            <h2>Subtitulo</h2>
-            <h3>Aca van mas subtitulos</h3>
-            <img src="https://fakeimg.pl/960x120" alt="imagen 1" />
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing
-                elit. Ab beatae quos laudantium? Aspernatur,
-                voluptate dolores. Fugiat blanditiis delectus
-                officiis animi consequatur aspernatur, ea excepturi
-                at nisi iste modi. Praesentium, possimus!</p>
+            <h1>{title}</h1>
+            <h2>{subtitle}</h2>
+            <p>{body}</p>
             <hr />
         </div>
     );
 }
-<section className="holder">
-    <h2>Novedades</h2>
-    {/* vamos a traer el componente de novedadItem */}
-
-    <NovedadItem/>
-
-</section>
