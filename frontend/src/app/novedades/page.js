@@ -1,3 +1,4 @@
+import "@/styles/novedades.css";
 import NovedadItem from "@/components/NovedadItem";
 
 export const metadata = {

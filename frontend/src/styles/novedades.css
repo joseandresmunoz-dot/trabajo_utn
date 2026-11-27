@@ -227,3 +227,36 @@ h2 {
 .formulario input [type="submit"]:hover {
     background: #2e64a1;
 }
+
+.holder > h2 {
+    margin-bottom: 20px;
+}
+
+.novedades {
+    margin-bottom: 24px;
+}
+
+.novedades h1 {
+    font-size: 24px;
+    color: #2e64a1;
+    margin-bottom: 6px;
+}
+
+.novedades h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.novedades p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.novedades hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 20px 0 0;
+}

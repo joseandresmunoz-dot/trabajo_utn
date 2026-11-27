@@ -18,57 +18,78 @@ export default function Nosotros() {
 
                     <p>Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Praesentium, ut aperiam
-                        suscipit, ad asperiores quia, sint porro </p>
+                        suscipit, ad asperiores quia, sint porro
+                        Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Praesentium, ut aperiam
+                        suscipit, ad asperiores quia, sint porro Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Praesentium, ut aperiam
+                        suscipit, ad asperiores quia, sint porroLorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Praesentium, ut aperiam
+                        suscipit, ad asperiores quia, sint porroLorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Praesentium, ut aperiam
+                        suscipit, ad asperiores quia, sint porro Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Praesentium, ut aperiam
+                        suscipit, ad asperiores quia, sint porroLorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Praesentium, ut aperiam
+                        suscipit, ad asperiores quia, sint porroLorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Praesentium, ut aperiam
+                        suscipit, ad asperiores quia, sint porroLorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Praesentium, ut aperiam
+                        suscipit, ad asperiores quia, sint porroLorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Praesentium, ut aperiam
+                        suscipit, ad asperiores quia, sint porroLorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Praesentium, ut aperiam
+                        suscipit, ad asperiores quia, sint porro</p>
                 </div>
                 <h2>Staff</h2>
                 <div className="personas">
                     <div className="persona" >
-                        <img src="https://dummyimage.com/120x120/000000/fff&text=Hola" width="75"
-                            alt="imagen1" />
+                        <img src="/images/nosotros/nosotros1.jpg" width="75"
+                            alt="imagen 1" />
                         <h5>Juan Gomez</h5>
                         <h6>Gerente General</h6>
                         <p>Lorem, ipsum dolor sit amet consectetur
                             adipisicing elit. Minus incidunt culpa consectetur nisi quis
                             sapiente asperiores eos </p>
                     </div>
-                </div>
-                 <div className="personas">
+                
+                 
                     <div className="persona" >
-                        <img src="https://dummyimage.com/120x120/000000/fff&text=Hola" width="75"
-                            alt="imagen1" />
+                        <img src="/images/nosotros/nosotros2.jpg" width="75"
+                            alt="imagen 2" />
                         <h5>Juan Gomez</h5>
                         <h6>Gerente General</h6>
                         <p>Lorem, ipsum dolor sit amet consectetur
                             adipisicing elit. Minus incidunt culpa consectetur nisi quis
                             sapiente asperiores eos </p>
                     </div>
-                </div>
-                 <div className="personas">
+                
+                
                     <div className="persona" >
-                        <img src="https://dummyimage.com/120x120/000000/fff&text=Hola" width="75"
-                            alt="imagen1" />
+                        <img src="/images/nosotros/nosotros3.jpg" width="75"
+                            alt="imagen 3" />
                         <h5>Juan Gomez</h5>
                         <h6>Gerente General</h6>
                         <p>Lorem, ipsum dolor sit amet consectetur
                             adipisicing elit. Minus incidunt culpa consectetur nisi quis
                             sapiente asperiores eos </p>
                     </div>
-                </div>
-                 <div className="personas">
+                
+                
                     <div className="persona" >
-                        <img src="https://dummyimage.com/120x120/000000/fff&text=Hola" width="75"
-                            alt="imagen1" />
+                        <img src="/images/nosotros/nosotros4.jpg" width="75"
+                            alt="imagen 4" />
                         <h5>Juan Gomez</h5>
                         <h6>Gerente General</h6>
                         <p>Lorem, ipsum dolor sit amet consectetur
                             adipisicing elit. Minus incidunt culpa consectetur nisi quis
                             sapiente asperiores eos </p>
                     </div>
-                </div>
-                 <div className="personas">
+                
+                
                     <div className="persona" >
-                        <img src="https://dummyimage.com/120x120/000000/fff&text=Hola" width="75"
-                            alt="imagen1" />
+                        <img src="/images/nosotros/nosotros5.jpg" width="75"
+                            alt="imagen 5" />
                         <h5>Juan Gomez</h5>
                         <h6>Gerente General</h6>
                         <p>Lorem, ipsum dolor sit amet consectetur

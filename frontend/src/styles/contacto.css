@@ -195,35 +195,78 @@ h2 {
 .datos ul li {
     font-size: 12px;
 }
-.formulario p {
+.contacto .formulario {
     display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 480px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    margin-top: 16px;
 }
-.formulario label {
-    min-width: 80px;
-}
-.formulario p label {
-    display: flex;
-    align-items: center;
-}
-.formulario p:nth-child(4) {
-    align-items: flex-start;
-}
-.formulario textarea {
-    resize: none;
-    height: 150px;
-}
-.formulario input [type="submit"] {
-    background: #6da9ed;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
-    color: white;
-    font-size: 16px;
-    padding: 6px 20px;
-    width: auto;
-    position: relative;
-    left: 5rem;
-    cursor: pointer;
 
+.contacto .formulario p {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 0;
 }
-.formulario input [type="submit"]:hover {
+
+.contacto .formulario label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.contacto .formulario input[type="text"],
+.contacto .formulario input[type="email"],
+.contacto .formulario textarea {
+    width: 100%;
+    padding: 10px 12px;
+    font-family: inherit;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color .2s, box-shadow .2s;
+}
+
+.contacto .formulario input:focus,
+.contacto .formulario textarea:focus {
+    border-color: #2e64a1;
+    box-shadow: 0 0 0 3px rgba(46,100,161,0.15);
+}
+
+.contacto .formulario textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contacto .formulario .centrar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.contacto .formulario input[type="submit"] {
     background: #2e64a1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 24px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background .2s;
+}
+
+.contacto .formulario input[type="submit"]:hover {
+    background: #4c76a5;
+}
+
+@media (max-width: 768px) {
+    flex-direction: column;
 }

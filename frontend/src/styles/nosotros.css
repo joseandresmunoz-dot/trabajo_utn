@@ -109,14 +109,17 @@ h2 {
 .personas {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 .persona {
+    flex: 0 0 18%;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 18%;
     text-align: center;
     padding: 13px;
     box-sizing: border-box;
+
 }
 .persona img {
     border-radius: 50%;
